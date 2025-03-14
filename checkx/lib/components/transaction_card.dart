@@ -1,3 +1,4 @@
+import 'package:checkx/utils/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
@@ -40,7 +41,7 @@ class TransactionCard extends StatelessWidget {
             ),
             child: Center(
               child: SvgPicture.asset(
-                iconPath,
+                Constants.bankTxnIcon,
                 width: 30,
                 height: 30,
               ),
