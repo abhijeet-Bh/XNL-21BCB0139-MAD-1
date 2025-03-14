@@ -1,4 +1,6 @@
 import 'package:checkx/screens/home_screen.dart';
+import 'package:checkx/screens/my_accounts_screen.dart';
+import 'package:checkx/screens/transactions_history_screen.dart';
 import 'package:checkx/utils/app_theme.dart';
 import 'package:flutter/material.dart';
 
@@ -17,8 +19,8 @@ class _DashboardScreenState extends State<DashboardScreen> {
 
   final List<Widget> _screens = [
     const HomeScreen(),
-    const HomeScreen(),
-    const HomeScreen(),
+    TransactionsHistoryScreen(),
+    MyAccountsScreen()
   ];
 
   void _onItemTapped(int index) {
