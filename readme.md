@@ -7,7 +7,7 @@ This project is a prototype of a mobile banking application built using **Flutte
 ## Design & Documentation
 - **MVP Document**: [MVP Requirements & Planning](https://docs.google.com/document/d/1paTY7YdeJwLSnHxx8ImD4FSsGlsrC6GEd-rMuIxACVU/edit?usp=sharing)
 - **Figma UI Wireframes**: [Figma Design](https://www.figma.com/design/kznBKpGmWC5fS3mqmjiXdF/xnl-mobile-app?node-id=0-1&t=xIs15RYaXD1tSY6d-1)
-- **Demo Video**: [Demo Video](https://drive.google.com/file/d/1cg1lKIJ1Pi8DkFwCb6M8JANkwEmxIHhO/view?usp=sharing)
+- **Demo Video**: [Demo Video](https://drive.google.com/file/d/1c5RGB6YDVarN6Yd400ABZT6ZL04zG8wk/view?usp=sharing)
 
 ## Screen Shots
 <img src="docs/home-mockup.png" alt="image" width="300">
