@@ -1,3 +1,4 @@
+import 'package:checkx/screens/ammount-screen.dart';
 import 'package:checkx/utils/app_theme.dart';
 import 'package:flutter/material.dart';
 
@@ -84,7 +85,15 @@ class _UserSearchBottomSheetState extends State<UserSearchBottomSheet> {
                       style: const TextStyle(color: Colors.white)),
                   subtitle: Text(user["id"]!,
                       style: const TextStyle(color: Colors.white70)),
-                  onTap: () => _navigateToPayment(user["id"]!),
+                  // onTap: () => _navigateToPayment(user["id"]!),
+                  onTap: () => Navigator.pushNamed(
+                    context,
+                    EnterAmountScreen.routeName,
+                    arguments: {
+                      'userId': 'abhijeet@checkx',
+                      'userName': 'Abhijeet Bhardwaj'
+                    },
+                  ),
                 );
               },
             ),

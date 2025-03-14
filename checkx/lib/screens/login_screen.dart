@@ -65,10 +65,15 @@ class LoginScreen extends StatelessWidget {
                   children: [
                     PrimaryButton(
                       text: "Continue with Google",
-                      onPressed: () {
-                        // TODO: Implement Google OAuth
-                        Navigator.pushNamed(context, DashboardScreen.routeName);
-                      },
+                      // onPressed: () {
+                      //   // TODO: Implement Google OAuth
+                      //   Navigator.pushNamed(context, DashboardScreen.routeName);
+                      // },
+                      onPressed: () => Navigator.pushNamedAndRemoveUntil(
+                        context,
+                        DashboardScreen.routeName,
+                        (route) => false,
+                      ),
                       color: AppTheme.accent,
                       icon: Constants.googleIcon,
                       textColor: Colors.black,
