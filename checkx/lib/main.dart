@@ -1,3 +1,4 @@
+import 'package:checkx/screens/dashboard_screen.dart';
 import 'package:checkx/utils/app_routes.dart';
 import 'package:flutter/material.dart';
 
@@ -18,6 +19,7 @@ class MyApp extends StatelessWidget {
       initialRoute: AppRoutes.welcome,
       onGenerateRoute: AppRoutes.generateRoute,
       debugShowCheckedModeBanner: false,
+      routes: {DashboardScreen.routeName: (ctx) => const DashboardScreen()},
     );
   }
 }

@@ -1,3 +1,4 @@
+import 'package:checkx/screens/dashboard_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
@@ -16,7 +17,7 @@ class LoginScreen extends StatelessWidget {
           gradient: LinearGradient(
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
-            colors: [AppTheme.primary, AppTheme.background],
+            colors: [AppTheme.primaryColor, AppTheme.backgroundColor],
           ),
         ),
         child: Padding(
@@ -66,6 +67,7 @@ class LoginScreen extends StatelessWidget {
                       text: "Continue with Google",
                       onPressed: () {
                         // TODO: Implement Google OAuth
+                        Navigator.pushNamed(context, DashboardScreen.routeName);
                       },
                       color: AppTheme.accent,
                       icon: Constants.googleIcon,
@@ -77,7 +79,7 @@ class LoginScreen extends StatelessWidget {
                       onPressed: () {
                         // TODO: Implement Apple OAuth
                       },
-                      color: AppTheme.primary,
+                      color: AppTheme.primaryColor,
                       icon: Constants.appleIcon,
                       textColor: Colors.black,
                     ),

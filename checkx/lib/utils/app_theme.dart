@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 
 class AppTheme {
   // Colors
-  static const Color primary = Color(0xFF6A1E55);
+  static const Color primaryColor = Color(0xFF3B1C32);
   static const Color accent = Color(0xFFA64D79);
   static const Color whiteText = Color(0xFFFFFFFF);
-  static const Color secondary = Color(0xFF6A1E55);
-  static const Color background = Color(0xFF1A1A1D);
+  static const Color secondaryColor = Color(0xFF6A1E55);
+  static const Color backgroundColor = Color(0xFF1A1A1D);
 
   // Page Padding
   static const EdgeInsets pagePadding = EdgeInsets.symmetric(horizontal: 16);
@@ -78,8 +78,8 @@ class AppTheme {
   // ThemeData for the app
   static final ThemeData themeData = ThemeData(
     brightness: Brightness.dark,
-    primaryColor: primary,
-    scaffoldBackgroundColor: background,
+    primaryColor: primaryColor,
+    scaffoldBackgroundColor: backgroundColor,
     fontFamily: "RedHatDisplay",
     textTheme: const TextTheme(
       displayLarge: displayText,
