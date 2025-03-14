@@ -56,21 +56,21 @@ class AppTheme {
 
   static const TextStyle labelTextLarge = TextStyle(
     fontSize: 16,
-    fontWeight: FontWeight.w500,
+    fontWeight: FontWeight.bold,
     fontFamily: "RedHatDisplay",
     color: whiteText,
   );
 
   static const TextStyle labelTextMedium = TextStyle(
     fontSize: 14,
-    fontWeight: FontWeight.w500,
+    fontWeight: FontWeight.bold,
     fontFamily: "RedHatDisplay",
     color: whiteText,
   );
 
   static const TextStyle labelTextSmall = TextStyle(
     fontSize: 12,
-    fontWeight: FontWeight.w500,
+    fontWeight: FontWeight.bold,
     fontFamily: "RedHatDisplay",
     color: whiteText,
   );

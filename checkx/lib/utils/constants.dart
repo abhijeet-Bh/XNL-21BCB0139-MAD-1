@@ -8,4 +8,5 @@ class Constants {
   static const String bankIcon = "lib/assets/icons/bank-icon.svg";
   static const String bankTxnIcon = "lib/assets/icons/bank-txn-icon.svg";
   static const String userTxnIcon = "lib/assets/icons/user-txn-icon.svg";
+  static const String tickIcon = "lib/assets/icons/tick-icon.svg";
 }

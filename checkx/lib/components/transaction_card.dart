@@ -33,7 +33,7 @@ class TransactionCard extends StatelessWidget {
         children: [
           Container(
             width: 55,
-            height: 69,
+            height: 55,
             decoration: BoxDecoration(
               color: AppTheme.primaryColor,
               borderRadius: BorderRadius.circular(10),
@@ -61,8 +61,8 @@ class TransactionCard extends StatelessWidget {
             (isIncome ? "+ ₹" : "- ₹") + amount.toStringAsFixed(2),
             // style: isIncome ? AppTheme.incomeText : AppTheme.expenseText,
             style: isIncome
-                ? AppTheme.headingText22.copyWith(color: Colors.greenAccent)
-                : AppTheme.headingText22.copyWith(color: Colors.redAccent),
+                ? AppTheme.labelTextLarge.copyWith(color: Colors.greenAccent)
+                : AppTheme.labelTextLarge.copyWith(color: Colors.redAccent),
           ),
         ],
       ),
